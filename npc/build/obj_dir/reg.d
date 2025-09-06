@@ -1,0 +1,10 @@
+reg.o: /home/xietianle/ysyx-workbench/npc/csrc/isa/riscv32/reg.c \
+ /home/xietianle/ysyx-workbench/npc/include/isa.h \
+ /home/xietianle/ysyx-workbench/npc/csrc/isa/riscv32/include/isa-def.h \
+ /home/xietianle/ysyx-workbench/npc/include/common.h \
+ /home/xietianle/ysyx-workbench/npc/include/generated/autoconf.h \
+ /home/xietianle/ysyx-workbench/npc/include/macro.h \
+ /home/xietianle/ysyx-workbench/npc/include/debug.h \
+ /home/xietianle/ysyx-workbench/npc/include/utils.h \
+ /home/xietianle/ysyx-workbench/npc/csrc/isa/riscv32/local-include/reg.h \
+ /home/xietianle/ysyx-workbench/npc/include/common.h

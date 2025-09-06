@@ -1,0 +1,17 @@
+# 读取设计文件
+read_verilog alu_test.v
+
+# 设置顶层模块
+hierarchy -top alu_test
+
+# 综合为门级网表
+proc; opt; fsm; opt; memory; opt; techmap; opt
+
+# 映射到基本单元
+abc -g AND,OR,XOR,MUX
+
+# 查看结果
+show -format svg -prefix alu_test
+
+# 生成Verilog网表
+write_verilog alu_test_synth.v

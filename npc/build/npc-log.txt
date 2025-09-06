@@ -1,0 +1,7 @@
+[1;34m[/home/xietianle/ysyx-workbench/npc/csrc/utils/log.c:34 init_log] Log is written to /home/xietianle/ysyx-workbench/npc/build/npc-log.txt[0m
+[1;34m[/home/xietianle/ysyx-workbench/npc/csrc/memory/paddr.c:70 init_mem] physical memory area [0x80000000, 0x87ffffff][0m
+[1;34m[/home/xietianle/ysyx-workbench/npc/csrc/monitor/monitor.c:54 load_img] No image is given. Use the default build-in image.[0m
+[1;34m[/home/xietianle/ysyx-workbench/npc/csrc/monitor/monitor.c:30 welcome] Trace: [1;32mON[0m[0m
+[1;34m[/home/xietianle/ysyx-workbench/npc/csrc/monitor/monitor.c:31 welcome] If trace is enabled, a log file will be generated to record the trace. This may lead to a large log file. If it is not necessary, you can disable it in menuconfig[0m
+[1;34m[/home/xietianle/ysyx-workbench/npc/csrc/monitor/monitor.c:34 welcome] Build time: 13:29:26, Aug 28 2025[0m
+[1;34m[/home/xietianle/ysyx-workbench/npc/csrc/monitor/monitor.c:37 welcome] Exercise: Please remove me in the source code and compile NPC again.[0m

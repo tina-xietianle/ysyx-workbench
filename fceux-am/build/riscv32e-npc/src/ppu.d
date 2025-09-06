@@ -1,0 +1,26 @@
+/home/xietianle/ysyx-workbench/fceux-am/build/riscv32e-npc/src/ppu.o: \
+ /home/xietianle/ysyx-workbench/fceux-am/src/ppu.cpp \
+ /home/xietianle/ysyx-workbench/fceux-am/src/types.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/klib/include/klib.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/am/include/am.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/am/include/arch/riscv.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/am/include/amdev.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/x6502.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/x6502struct.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/fceu.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/git.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/utils/md5.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/utils/../types.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/utils/valuearray.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/ppu.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/sound.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/file.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/emufile.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/utils/memory.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/cart.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/palette.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/state.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/video.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/input.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/driver.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/pputile.inc

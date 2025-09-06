@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Dec 10 13:00:39 2024
+# Process ID: 267229
+# Current directory: /home/xietianle/ysyx-workbench/nemu/src/isa/riscv32
+# Command line: vivado
+# Log file: /home/xietianle/ysyx-workbench/nemu/src/isa/riscv32/vivado.log
+# Journal file: /home/xietianle/ysyx-workbench/nemu/src/isa/riscv32/vivado.jou
+# Running On        :xietianle-Legion-Y7000P-IRH8
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.4 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency     :1145.854 MHz
+# CPU Physical cores:10
+# CPU Logical cores :16
+# Host memory       :16469 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18616 MB
+# Available Virtual :13263 MB
+#-----------------------------------------------------------
+start_gui
+create_project addi2 /home/xietianle/ysyx-workbench/nemu/src/isa/riscv32/addi2 -part xc7a200tfbg484-2
+import_files -norecurse {/home/xietianle/ysyx-workbench/addi/ysyx_24090010_reg.v /home/xietianle/ysyx-workbench/addi/ysyx_24090010_alu.v /home/xietianle/ysyx-workbench/addi/ysyx_24090010_ifu.v /home/xietianle/ysyx-workbench/addi/ysyx_24090010_idu.v /home/xietianle/ysyx-workbench/addi/ysyx_24090010_exu.v /home/xietianle/ysyx-workbench/addi/ysyx_24090010_mem.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1

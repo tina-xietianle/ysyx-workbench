@@ -1,0 +1,13 @@
+{
+	"files.associations": {
+		"paddr.h": "c",
+		"common.h": "c",
+		"elf.h": "c",
+		"reg.h": "c",
+		"stdio.h": "c",
+		"isa.h": "c",
+		"utils.h": "c",
+		"cstddef": "cpp"
+	},
+	"C_Cpp.errorSquiggles": "disabled"
+}

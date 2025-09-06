@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a200tfbg484-2" LaunchTime="1733806976">
+  <File Type="VDS-TIMING-PB" Name="ysyx_24090010_exu_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ysyx_24090010_exu_timing_summary_synth.rpt"/>
+  <File Type="RDS-RDS" Name="ysyx_24090010_exu.vds"/>
+  <File Type="REPORTS-TCL" Name="ysyx_24090010_exu_reports.tcl"/>
+  <File Type="PA-TCL" Name="ysyx_24090010_exu.tcl"/>
+  <File Type="RDS-DCP" Name="ysyx_24090010_exu.dcp"/>
+  <File Type="RDS-PROPCONSTRS" Name="ysyx_24090010_exu_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="ysyx_24090010_exu_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ysyx_24090010_exu_utilization_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/addi/ysyx_24090010_alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../addi/ysyx_24090010_alu.v"/>
+        <Attr Name="ImportTime" Val="1733748481"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/addi/ysyx_24090010_idu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../addi/ysyx_24090010_idu.v"/>
+        <Attr Name="ImportTime" Val="1733804119"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/addi/ysyx_24090010_ifu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../addi/ysyx_24090010_ifu.v"/>
+        <Attr Name="ImportTime" Val="1733732113"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/addi/ysyx_24090010_mem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../addi/ysyx_24090010_mem.v"/>
+        <Attr Name="ImportTime" Val="1733801721"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/addi/ysyx_24090010_reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../addi/ysyx_24090010_reg.v"/>
+        <Attr Name="ImportTime" Val="1733795684"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/addi/ysyx_24090010_exu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../addi/ysyx_24090010_exu.v"/>
+        <Attr Name="ImportTime" Val="1733748484"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ysyx_24090010_exu"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

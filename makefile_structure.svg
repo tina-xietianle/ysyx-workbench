@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <style>
+      .box { fill: #e8f4f8; stroke: #2c5aa0; stroke-width: 2; }
+      .title { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; text-anchor: middle; }
+      .desc { font-family: Arial, sans-serif; font-size: 10px; text-anchor: middle; fill: #555; }
+      .arrow { stroke: #333; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .include-line { stroke: #666; stroke-width: 1; stroke-dasharray: 3,3; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="600" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c5aa0">
+    Makefile 包含调用关系图
+  </text>
+
+  <!-- NEMU Main Makefile -->
+  <rect x="50" y="60" width="200" height="80" class="box"/>
+  <text x="150" y="85" class="title">NEMU/Makefile</text>
+  <text x="150" y="100" class="desc">主控制文件</text>
+  <text x="150" y="115" class="desc">配置检查和变量设置</text>
+  <text x="150" y="130" class="desc">包含所有filelist.mk</text>
+
+  <!-- Abstract Machine Main Makefile -->
+  <rect x="350" y="60" width="200" height="80" class="box"/>
+  <text x="450" y="85" class="title">AM/Makefile</text>
+  <text x="450" y="100" class="desc">抽象机器主文件</text>
+  <text x="450" y="115" class="desc">通用编译规则</text>
+  <text x="450" y="130" class="desc">架构和平台配置</text>
+
+  <!-- CPU Tests Makefile -->
+  <rect x="650" y="60" width="200" height="80" class="box"/>
+  <text x="750" y="85" class="title">cpu-tests/Makefile</text>
+  <text x="750" y="100" class="desc">测试控制文件</text>
+  <text x="750" y="115" class="desc">动态生成测试Makefile</text>
+  <text x="750" y="130" class="desc">执行测试并收集结果</text>
+
+  <!-- Config files -->
+  <rect x="50" y="180" width="180" height="60" class="box"/>
+  <text x="140" y="200" class="title">config.mk</text>
+  <text x="140" y="215" class="desc">配置管理规则</text>
+  <text x="140" y="230" class="desc">menuconfig支持</text>
+
+  <rect x="270" y="180" width="180" height="60" class="box"/>
+  <text x="360" y="200" class="title">native.mk</text>
+  <text x="360" y="215" class="desc">本地构建规则</text>
+  <text x="360" y="230" class="desc">运行和调试命令</text>
+
+  <rect x="490" y="180" width="180" height="60" class="box"/>
+  <text x="580" y="200" class="title">build.mk</text>
+  <text x="580" y="215" class="desc">通用构建规则</text>
+  <text x="580" y="230" class="desc">编译模式和目标</text>
+
+  <!-- Architecture specific files -->
+  <rect x="50" y="300" width="180" height="60" class="box"/>
+  <text x="140" y="320" class="title">riscv.mk</text>
+  <text x="140" y="335" class="desc">RISC-V架构配置</text>
+  <text x="140" y="350" class="desc">交叉编译设置</text>
+
+  <rect x="270" y="300" width="180" height="60" class="box"/>
+  <text x="360" y="320" class="title">riscv32-nemu.mk</text>
+  <text x="360" y="335" class="desc">32位RISC-V+NEMU</text>
+  <text x="360" y="350" class="desc">特定架构源文件</text>
+
+  <rect x="490" y="300" width="180" height="60" class="box"/>
+  <text x="580" y="320" class="title">riscv32e-npc.mk</text>
+  <text x="580" y="335" class="desc">32位RISC-V+NPC</text>
+  <text x="580" y="350" class="desc">嵌入式架构配置</text>
+
+  <!-- Platform specific files -->
+  <rect x="50" y="420" width="180" height="60" class="box"/>
+  <text x="140" y="440" class="title">nemu.mk</text>
+  <text x="140" y="455" class="desc">NEMU平台配置</text>
+  <text x="140" y="470" class="desc">源文件和链接设置</text>
+
+  <rect x="270" y="420" width="180" height="60" class="box"/>
+  <text x="360" y="440" class="title">npc.mk</text>
+  <text x="360" y="455" class="desc">NPC平台配置</text>
+  <text x="360" y="470" class="desc">硬件相关设置</text>
+
+  <!-- AM component files -->
+  <rect x="490" y="420" width="180" height="60" class="box"/>
+  <text x="580" y="440" class="title">am/Makefile</text>
+  <text x="580" y="455" class="desc">抽象机器组件</text>
+  <text x="580" y="470" class="desc">AM源文件编译</text>
+
+  <rect x="710" y="420" width="180" height="60" class="box"/>
+  <text x="800" y="440" class="title">klib/Makefile</text>
+  <text x="800" y="455" class="desc">内核库组件</text>
+  <text x="800" y="470" class="desc">基础库函数</text>
+
+  <!-- Filelist files -->
+  <rect x="50" y="540" width="150" height="80" class="box"/>
+  <text x="125" y="565" class="title">src/filelist.mk</text>
+  <text x="125" y="580" class="desc">主源文件列表</text>
+  <text x="125" y="595" class="desc">目录和源文件</text>
+  <text x="125" y="610" class="desc">条件编译控制</text>
+
+  <rect x="230" y="540" width="150" height="80" class="box"/>
+  <text x="305" y="565" class="title">isa/filelist.mk</text>
+  <text x="305" y="580" class="desc">ISA相关文件</text>
+  <text x="305" y="595" class="desc">架构特定源码</text>
+  <text x="305" y="610" class="desc">头文件路径</text>
+
+  <rect x="410" y="540" width="150" height="80" class="box"/>
+  <text x="485" y="565" class="title">device/filelist.mk</text>
+  <text x="485" y="580" class="desc">设备相关文件</text>
+  <text x="485" y="595" class="desc">I/O设备支持</text>
+  <text x="485" y="610" class="desc">条件库链接</text>
+
+  <rect x="590" y="540" width="150" height="80" class="box"/>
+  <text x="665" y="565" class="title">utils/filelist.mk</text>
+  <text x="665" y="580" class="desc">工具文件列表</text>
+  <text x="665" y="595" class="desc">C++源文件</text>
+  <text x="665" y="610" class="desc">LLVM库支持</text>
+
+  <!-- Legend -->
+  <rect x="950" y="100" width="220" height="120" fill="#f9f9f9" stroke="#ccc" stroke-width="1"/>
+  <text x="1060" y="120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">图例</text>
+  
+  <line x1="960" y1="140" x2="990" y2="140" class="arrow"/>
+  <text x="1000" y="145" font-family="Arial, sans-serif" font-size="10">include包含</text>
+  
+  <line x1="960" y1="160" x2="990" y2="160" class="include-line"/>
+  <text x="1000" y="165" font-family="Arial, sans-serif" font-size="10">条件包含</text>
+  
+  <rect x="960" y="180" width="30" height="20" class="box"/>
+  <text x="1000" y="195" font-family="Arial, sans-serif" font-size="10">Makefile文件</text>
+
+  <!-- Include relationships -->
+  
+  <!-- NEMU main includes -->
+  <line x1="150" y1="140" x2="140" y2="180" class="include-line"/>
+  <line x1="150" y1="140" x2="360" y2="180" class="include-line"/>
+  <line x1="150" y1="140" x2="580" y2="180" class="include-line"/>
+  
+  <!-- NEMU to filelist -->
+  <line x1="150" y1="140" x2="125" y2="540" class="arrow"/>
+  <line x1="150" y1="140" x2="305" y2="540" class="arrow"/>
+  <line x1="150" y1="140" x2="485" y2="540" class="arrow"/>
+  <line x1="150" y1="140" x2="665" y2="540" class="arrow"/>
+
+  <!-- AM main to components -->
+  <line x1="450" y1="140" x2="580" y2="420" class="arrow"/>
+  <line x1="450" y1="140" x2="800" y2="420" class="arrow"/>
+
+  <!-- Architecture includes -->
+  <line x1="360" y1="300" x2="140" y2="300" class="arrow"/>
+  <line x1="580" y1="300" x2="140" y2="300" class="arrow"/>
+  
+  <!-- Platform includes -->
+  <line x1="360" y1="360" x2="140" y2="420" class="arrow"/>
+  <line x1="580" y1="360" x2="360" y2="420" class="arrow"/>
+
+  <!-- CPU tests to AM -->
+  <line x1="750" y1="140" x2="450" y2="140" class="arrow"/>
+
+  <!-- Config dependencies -->
+  <line x1="250" y1="100" x2="360" y2="180" class="include-line"/>
+  <line x1="250" y1="100" x2="580" y2="180" class="include-line"/>
+
+  <!-- Notes -->
+  <text x="950" y="260" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c5aa0">说明:</text>
+  <text x="950" y="280" font-family="Arial, sans-serif" font-size="10" fill="#555">1. 实线箭头表示直接include</text>
+  <text x="950" y="295" font-family="Arial, sans-serif" font-size="10" fill="#555">2. 虚线表示条件include</text>
+  <text x="950" y="310" font-family="Arial, sans-serif" font-size="10" fill="#555">3. filelist.mk被主Makefile自动发现</text>
+  <text x="950" y="325" font-family="Arial, sans-serif" font-size="10" fill="#555">4. 架构文件根据ARCH变量选择</text>
+  <text x="950" y="340" font-family="Arial, sans-serif" font-size="10" fill="#555">5. 平台文件根据配置条件包含</text>
+
+</svg>

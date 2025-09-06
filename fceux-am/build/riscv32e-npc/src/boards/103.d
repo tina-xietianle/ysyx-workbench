@@ -1,0 +1,22 @@
+/home/xietianle/ysyx-workbench/fceux-am/build/riscv32e-npc/src/boards/103.o: \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/103.cpp \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/mapinc.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../types.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/klib/include/klib.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/am/include/am.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/am/include/arch/riscv.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/am/include/amdev.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../utils/memory.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../x6502.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../x6502struct.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../fceu.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../types.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../git.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../utils/md5.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../utils/../types.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../utils/valuearray.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../ppu.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../sound.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../state.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../cart.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/boards/../unif.h

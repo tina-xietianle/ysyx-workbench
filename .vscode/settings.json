@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "difftest.h": "c",
+        "nemu.h": "c",
+        "klib-macros.h": "c",
+        "time.h": "c",
+        "isa.h": "c",
+        "paddr.h": "c",
+        "npc.h": "c",
+        "common.h": "c"
+    }
+}

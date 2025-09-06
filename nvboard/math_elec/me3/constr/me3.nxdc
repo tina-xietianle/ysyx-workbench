@@ -1,0 +1,10 @@
+top = me3
+
+a (SW8,SW7,SW6,SW5)
+b (SW3,SW2,SW1,SW0)
+func (BTNL,BTNC,BTNR)
+result (LD3,LD2,LD1,LD0)
+zero LD15
+carry LD5
+overflow LD8
+out LD11

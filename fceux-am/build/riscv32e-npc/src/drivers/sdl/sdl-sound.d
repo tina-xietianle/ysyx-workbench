@@ -1,0 +1,20 @@
+/home/xietianle/ysyx-workbench/fceux-am/build/riscv32e-npc/src/drivers/sdl/sdl-sound.o: \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/sdl-sound.cpp \
+ /home/xietianle/ysyx-workbench/abstract-machine/klib/include/klib-macros.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/sdl.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/main.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/../../driver.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/../../types.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/klib/include/klib.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/am/include/am.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/am/include/arch/riscv.h \
+ /home/xietianle/ysyx-workbench/abstract-machine/am/include/amdev.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/../../git.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/../../utils/md5.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/../../utils/../types.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/../../utils/valuearray.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/../../file.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/../../emufile.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/dface.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/input.h \
+ /home/xietianle/ysyx-workbench/fceux-am/src/drivers/sdl/../../config.h

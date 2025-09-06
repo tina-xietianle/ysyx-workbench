@@ -1,0 +1,6 @@
+eog alu_test.svg,看综合图像
+vim alu_test_synth.v ,查看综合后的网表
+
+减法，加法，比较都用了加法器
+移位运算符是用多路复用器实现
+yosys可以优化一下常量操作数
